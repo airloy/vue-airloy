@@ -3,7 +3,7 @@
  */
 
 var Vue // bind on install
-import airloy from 'airloy'
+import airloy, {configure, use} from 'airloy'
 
 function install (_Vue) {
   if (Vue) {
@@ -24,6 +24,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
   install,
-  configure: airloy.configure,
-  use: airloy.use
+  configure,
+  use
 }

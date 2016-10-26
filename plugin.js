@@ -1,5 +1,5 @@
 /**
- * VueAirloy v0.9.6
+ * VueAirloy v0.9.7
  * (c) 2016 Layman
  * @license MIT
  */
@@ -9,7 +9,7 @@
   (global.VueAirloy = factory(global.airloy));
 }(this, (function (airloy) { 'use strict';
 
-airloy = 'default' in airloy ? airloy['default'] : airloy;
+var airloy__default = 'default' in airloy ? airloy['default'] : airloy;
 
 /**
  * Created by Layman <anysome@gmail.com> (http://github.com/anysome) on 16/10/26.
@@ -25,7 +25,7 @@ function install (_Vue) {
   }
   Vue = _Vue;
   Object.defineProperty(Vue.prototype, '$airloy', {
-    get () { return airloy }
+    get () { return airloy__default }
   });
 }
 
