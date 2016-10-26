@@ -1,6 +1,6 @@
 {
   "name": "vue-airloy",
-  "version": "1.0.0",
+  "version": "0.9.6",
   "description": "Quick access airloy in vue component",
   "main": "plugin.js",
   "scripts": {
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/airloy/vue-airloy/issues"
   },
-  "homepage": "https://github.com/airloy/vue-airloy#readme"
+  "homepage": "https://github.com/airloy/vue-airloy#readme",
+  "dependencies": {
+    "airloy": "^0.9.6"
+  }
 }

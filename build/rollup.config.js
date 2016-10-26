@@ -8,11 +8,11 @@ module.exports = {
   entry: 'src/index.js',
   dest: 'plugin.js',
   format: 'umd',
-  moduleName: 'vue_airloy',
+  moduleName: 'VueAirloy',
   plugins: [],
   banner:
     `/**
- * vue_airloy v${version}
+ * VueAirloy v${version}
  * (c) ${new Date().getFullYear()} Layman
  * @license MIT
  */`
