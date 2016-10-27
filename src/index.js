@@ -3,7 +3,7 @@
  */
 
 var Vue // bind on install
-import airloy, {configure, use} from 'airloy'
+import airloy, {configure, use} from 'airloy/src'
 
 function install (_Vue) {
   if (Vue) {

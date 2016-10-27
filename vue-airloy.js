@@ -1,5 +1,5 @@
 /**
- * VueAirloy v0.9.7
+ * VueAirloy v0.9.8
  * (c) 2016 Layman
  * @license MIT
  */

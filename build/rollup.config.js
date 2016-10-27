@@ -6,7 +6,7 @@ const version = process.env.VERSION || require('../package.json').version;
 
 module.exports = {
   entry: 'src/index.js',
-  dest: 'plugin.js',
+  dest: 'vue-airloy.js',
   format: 'umd',
   moduleName: 'VueAirloy',
   plugins: [],
